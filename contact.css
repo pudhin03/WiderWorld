@@ -62,7 +62,7 @@ textarea.contact-form-text
 .button
 {
 	border:2;
-	background:#ff7b54;
+	background:#e40017;
 	color:#fff;
 	padding: 15px 40px 15px 40px;
 	border-radius: 20px;
@@ -72,5 +72,5 @@ textarea.contact-form-text
 }
 .button:hover
 {
-	background:#000000;
+	background:#ff7b54;
 }
