@@ -16,7 +16,7 @@ h1 {
 
 /* navbar */
 .navbar {
-  font-size: .90em;
+  font-size: 1em;
   background-color:#fcbd28;
 
 
@@ -63,10 +63,11 @@ float:right;
 #footer
 {
 padding-top:50px;
-padding-bottom: 30px;
+padding-bottom:50px;
 text-align: center;
 background-color: #1f3e87;
 color:#fff;
+margin-bottom:0;
 }
 .icon
 {
@@ -85,6 +86,6 @@ h3
 {
 font-size:.75em;
 color:#6f9eaf;
-padding-top:30px;
-border-top: .5px outset hidden;
+padding-top:50px;
+
 }
