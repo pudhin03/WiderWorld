@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Contact Us </title <!--stylesheets -->
+	<link rel="stylesheet" href="contact.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin="anonymous "></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--Google font & icon -->
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div class="contact-section">
+  <a class="material-icons" href="index.html" style="font-size:40px";> home </a>
+	<h2>Contact Us </h2>
+
+  <form action"contact.php" class="contact-form" method="post">
+	<label for="fname"> Full Name </label> <br>
+	<input type="text" class= "contact-form-text" id="fname" name = "fname">
+
+
+	<label for "email"> Email </label> <br>
+	<input type="email" class= "contact-form-text" name="email">
+
+
+
+	<label for "phone">Phone </label> <br>
+	<input type="tel"  class= "contact-form-text" name="phone" required>
+
+
+
+	<label for "visa">Visa Type </label> <br>
+	<input type="text"  class= "contact-form-text" name="visa">
+
+
+	<label for "message"> Your Message </label>
+	<textarea class ="contact-form-text" rows="5"cols="40"></textarea>
+
+	<input type="submit" class= "button" value ="Send">
+
+</form>
+</div>
+
+</body>
+	</html>

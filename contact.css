@@ -1,0 +1,76 @@
+*
+{
+margin:0;
+padding:0;
+color:#fff;
+font-family: "Roboto",verdana, sans-serif;
+}
+
+.contact-section
+{
+background: url(Images/woman.jpg) no-repeat center;
+background-size: cover;
+padding:40px 0;
+font-size: 25px;
+}
+.material-icons
+{
+text-decoration: none;
+background-color:rgba(0, 0, 0, 0.5);
+margin-left:1%;
+}
+.contact-section h2
+{
+	text-align: center;
+	padding-bottom:40px;
+	padding-right:50px;
+	font-weight: 200;
+
+}
+
+.contact-form
+{
+	max-width:500px;
+	margin:auto;
+	padding:5px 10px;
+	overflow:hidden;
+}
+
+.contact-form-text
+{
+	display:block;
+	width:85%;
+	box-sizing: border-box;
+	margin:16px 0;
+	border:0;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 20px 30px;
+	outline:none;
+	transition: 0.5s;
+
+}
+.contact-form-text:focus
+{
+	box-shadow: 0 0 10px 4px #ff7b54;
+}
+
+textarea.contact-form-text
+{
+	resize:none;
+	height:120px;
+}
+.button
+{
+	border:2;
+	background:#ff7b54;
+	color:#fff;
+	padding: 15px 40px 15px 40px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition:0.5s;
+	font-size: 20px;
+}
+.button:hover
+{
+	background:#000000;
+}
