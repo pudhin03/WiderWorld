@@ -53,6 +53,15 @@ font-size: 1.5em;
 .content {
   padding: 10px;
 }
+.mig
+{
+width:100%;
+height: auto;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
